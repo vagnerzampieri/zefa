@@ -1,0 +1,22 @@
+common: &common
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: postgres
+  password: postgres
+
+development:
+  <<: *common
+  database: zefa_development
+
+test:
+  <<: *common
+  database: zefa_test
+
+production:
+  <<: *common
+  database: zefa_production
+
+staging:
+  <<: *common
+  database: zefa_staging
