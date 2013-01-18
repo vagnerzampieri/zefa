@@ -14,7 +14,10 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.0.1'
 gem 'simple_form'
 gem 'devise'
+gem 'hpricot'
+gem 'ruby_parser'
 gem 'money'
+gem 'draper'
 
 # Gems used only for assets and not required
 # in production environments by default.
