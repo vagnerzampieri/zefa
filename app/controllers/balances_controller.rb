@@ -7,7 +7,7 @@ class BalancesController < ApplicationController
   end
 
   def create
-    respond_with @balance = Balance.building(params[:balance]), location: new_balance_path(params[:balance][:user_id])
+    respond_with @balance = Balance.building(params[:balance]), location: new_balance_path(user.id)
   end
 
   private
