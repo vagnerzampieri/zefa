@@ -1,0 +1,13 @@
+= @user.name
+%br
+
+- @balances.each do |balance|
+  = balance.signal
+  = balance.price
+  = balance.color
+  %br
+
+= form_for @balance do |f|
+  = text_field :balance, :price, placeholder: 'Ex.: - 10.00'
+  = hidden_field_tag 'balance[user_id]', params[:user_id]
+  = f.submit

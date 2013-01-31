@@ -8,6 +8,7 @@ gem 'arel', path: '~/Projects/rails/4++/github/arel'
 gem 'activerecord-deprecated_finders', path: '~/Projects/rails/4++/github/activerecord-deprecated_finders'
 
 gem 'pg'
+gem 'thin'
 gem 'haml'
 gem 'jquery-rails'
 gem 'turbolinks'
@@ -16,7 +17,7 @@ gem 'simple_form'
 gem 'devise'
 gem 'hpricot'
 gem 'ruby_parser'
-gem 'money'
+#gem 'money-rails', github: 'RubyMoney/money-rails'
 gem 'draper'
 
 # Gems used only for assets and not required
@@ -36,6 +37,9 @@ end
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'capybara'
+  gem 'capybara-webkit'
+  gem 'shoulda'
   gem 'pry'
   gem 'awesome_print'
 end
