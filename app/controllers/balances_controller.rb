@@ -2,7 +2,7 @@ class BalancesController < ApplicationController
   def new
     user
     @balances = Balance.where(user_id: user.id)
-    @balance = Balance.new
+    @balance = user.balances.build
     respond_with @balances
   end
 
