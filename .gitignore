@@ -18,3 +18,6 @@
 # Ignore files
 *.swp
 *.swo
+
+# Ignore SimpleCov files
+coverage/

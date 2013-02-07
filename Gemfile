@@ -36,10 +36,19 @@ group :assets do
 end
 
 group :development, :test do
+  gem 'pry'
+  gem 'awesome_print'
   gem 'rspec-rails'
   gem 'capybara'
   gem 'capybara-webkit'
   gem 'shoulda'
-  gem 'pry'
-  gem 'awesome_print'
+  gem 'launchy'
+  gem 'faker'
+  gem 'factory_girl_rails'
+  gem 'simplecov'
+  gem 'guard-rspec'
+  gem 'rb-inotify', '~> 0.8.8'
+  gem 'zeus'
+  gem "parallel_tests"
+  gem 'libnotify'
 end

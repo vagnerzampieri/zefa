@@ -1,6 +1,12 @@
 class Balance < ActiveRecord::Base
   belongs_to :user
 
+  with_options presence: true do |p|
+    p.validates :price
+    p.validates :signal
+    p.validates :color
+  end
+
   class << self
     def building params
       balance = BalanceValidate.new params
