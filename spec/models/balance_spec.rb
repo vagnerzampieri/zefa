@@ -9,7 +9,7 @@ describe Balance do
 
   context "when create has" do
     before do
-      @user = Factory.create(:user)
+      @user = FactoryGirl.create(:user)
 
       @balance_negative = Balance.building price: '- 10.00', user_id: @user.id
       @balance_positive = Balance.building price: '+ 10.00', user_id: @user.id
