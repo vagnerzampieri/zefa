@@ -1,0 +1,103 @@
+user:
+  name: "Vagner Zampieri"
+  period: "2013-04-01 ~ 2013-04-31"
+  salary: 5085.15
+  expenses:
+    20130401:
+      bus: 2.75
+      train: 6.20
+      snack: 6.10
+      lunch: 8.22
+    20130402:
+      train: 6.20
+      lunch: 9.59
+    20130403:
+      train: 6.20
+      feed_th_dogs: 5.00
+      lunch: 16.00
+      market: 5.60
+    20130404:
+      train: 6.20
+      medicine_bone: 150.00
+      lunch: 14.00
+    20130405:
+      hause_hent: 500.00
+      cel: 29.10
+      college: 258.00
+      health_plan: 147.77
+      train: 3.10
+      metro: 3.50
+      starbucks: 11.50
+      bar: 15.50
+      taxi: 25.00
+    20130406:
+      hortifruti: 41.61
+      bowling: 69.49
+      snack: 24.00
+      taxi: 24.00
+    20130407:
+      train: 6.20
+      lunch: 6.50
+    20130410:
+      train: 6.20
+      lunch: 11.00
+    20130411:
+      train: 6.20
+      lunch: 11.30
+      market: 23.90
+    20130412:
+      train: 6.20
+      lunch: 14.90
+      snack: 20.00
+    20130413:
+      bus: 2.75
+      market: 68.00
+    20130414:
+      bus: 2.75
+    20130415:
+      train: 6.20
+      internet: 90.00
+      lunch: 12.57
+    20130416:
+      train: 6.20
+      health_plan: 236.00
+      lunch: 16.00
+    20130417:
+      train: 6.20
+      lunch: 15.35
+    20130418:
+      train: 3.10
+      technical_assistance: 345.00
+      lunch: 9.75
+      beggar: 2.00
+      mc_flurry: 6.00
+      snack: 42.13
+      bus: 5.50
+    20130419:
+      train: 6.20
+      lunch: 12.45
+    20130420:
+      train: 6.20
+      metro: 3.40
+      lunch: 20.00
+    20130421:
+      taxi: 25.00
+      market: 1.90
+      credit_card: 170.00
+      bus: 2.75
+    20130422:
+      train: 3.10
+    20130423:
+      bus: 2.75
+      hortifruti: 7.15
+    20130424:
+      train: 6.20
+      market: 5.00
+      lunch: 10.00
+    20130425:
+    20130426:
+    20130427:
+    20130428:
+    20130429:
+    20130430:
+    20130431:
