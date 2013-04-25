@@ -1,6 +1,6 @@
 class BalanceValidate
   def initialize price
-    @price = price.values[0]
+    @price = price
   end
 
   def separate

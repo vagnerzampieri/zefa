@@ -9,7 +9,7 @@ class Balance < ActiveRecord::Base
 
   class << self
     def building params
-      balance = BalanceValidate.new params
+      balance = BalanceValidate.new params[:price]
       signal, price, color = balance.separate
       create(price: price, signal: signal, user_id: params[:user_id], color: color)
     end
