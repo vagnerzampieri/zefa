@@ -7,6 +7,10 @@ class Balance < ActiveRecord::Base
     p.validates :color
   end
 
+  validates :price,
+            :numericality => true,
+            :format => { :with => /\A\d{1,6}(\.\d{0,4})?\z/ }
+
   class << self
     def building params
       balance = BalanceValidate.new params[:price]
