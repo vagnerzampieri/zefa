@@ -1,8 +1,9 @@
-= @user.name
+%h3= @user.name
 
 = form_for @balance, url: balances_path(params[:user_id]) do |f|
   = text_field :balance, :price, placeholder: 'Ex.: - 10.00', required: true
   = hidden_field_tag 'balance[user_id]', params[:user_id]
+  %br
   = f.submit
 
 %table

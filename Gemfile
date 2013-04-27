@@ -8,7 +8,6 @@ gem 'arel', path: '~/Projects/rails/4++/github/arel'
 gem 'activerecord-deprecated_finders', path: '~/Projects/rails/4++/github/activerecord-deprecated_finders'
 
 gem 'pg'
-gem 'thin'
 gem 'haml'
 gem 'jquery-rails'
 gem 'turbolinks'
@@ -36,6 +35,7 @@ group :assets do
 end
 
 group :development, :test do
+  gem 'thin'
   gem 'pry'
   gem 'awesome_print'
   gem 'rspec-rails'
